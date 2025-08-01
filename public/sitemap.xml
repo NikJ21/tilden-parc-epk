@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  
+  <!-- Main EPK Page -->
+  <url>
+    <loc>https://epk.tildenparc.bio/</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://epk.tildenparc.bio/tilden-parc-press-kit-banner.jpg</image:loc>
+      <image:title>Tilden Parc Press Kit Banner</image:title>
+      <image:caption>Official Tilden Parc artist press kit and promotional materials</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Music Releases -->
+  <url>
+    <loc>https://open.spotify.com/album/4Q4zOpqEIGuStOplNJacEn</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://open.spotify.com/album/3MK9fu2l8ggrCHfF4vqOsh</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://open.spotify.com/album/3WazHkWHcshAk5zkSUplTn</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://open.spotify.com/album/1iywL50mAO3nEEhbZdcxUB</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Individual Tracks -->
+  <url>
+    <loc>https://open.spotify.com/track/1hsM9n5FRzb0660LqCA5pp</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://open.spotify.com/track/14nvvxkXk1VZUavaiA0xJF</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Social Media Profiles -->
+  <url>
+    <loc>https://www.instagram.com/tildenparc</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://open.spotify.com/artist/1XoUuYOyZEkGmYeCTaIWyj</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://music.apple.com/us/artist/tilden-parc/1671589985</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://soundcloud.com/tildenparc</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tiktok.com/@tildenparc</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset> 

@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://epk.tildenparc.bio/sitemap.xml
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1
+
+# Allow all image files
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.gif
+Allow: /*.webp
+
+# Allow CSS and JS files
+Allow: /*.css
+Allow: /*.js
+
+# Disallow admin or private areas (if any exist)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/ 

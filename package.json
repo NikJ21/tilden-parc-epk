@@ -1,0 +1,13 @@
+{
+  "name": "tilden-parc-epk",
+  "version": "1.0.0",
+  "description": "Tilden Parc Official Artist EPK",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'Static site - no build required'"
+  },
+  "keywords": ["epk", "music", "artist", "tilden-parc"],
+  "author": "Tilden Parc",
+  "license": "MIT"
+} 
