@@ -4,11 +4,38 @@ function onYouTubeIframeAPIReady() {
     ytPlayer = new YT.Player('heroVideo', {
         events: {
             'onReady': function(event) {
-                // Do not autoplay immediately; wait for user gesture
+                // Force autoplay for Safari
+                if (navigator.userAgent.includes('Safari') && !navigator.userAgent.includes('Chrome')) {
+                    setTimeout(() => {
+                        event.target.playVideo();
+                    }, 1000);
+                }
             }
         }
     });
 }
+
+// Safari autoplay workaround
+document.addEventListener('DOMContentLoaded', () => {
+    const video = document.getElementById('heroVideo');
+    
+    // Safari-specific autoplay handling
+    if (navigator.userAgent.includes('Safari') && !navigator.userAgent.includes('Chrome')) {
+        // Add click event to enable autoplay
+        document.addEventListener('click', function() {
+            if (ytPlayer && ytPlayer.playVideo) {
+                ytPlayer.playVideo();
+            }
+        }, { once: true });
+        
+        // Also try to autoplay on scroll
+        window.addEventListener('scroll', function() {
+            if (ytPlayer && ytPlayer.playVideo) {
+                ytPlayer.playVideo();
+            }
+        }, { once: true });
+    }
+});
 
 console.log('Logo animation script running!');
 
